@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def load_data(filename):
     data = np.loadtxt(filename, delimiter=',')
     X = data[:,:2]
